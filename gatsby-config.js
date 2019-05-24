@@ -3,9 +3,6 @@ module.exports = {
     title: `Templates Start Gatsby + Netlify cms Lite`,
     author: `Jérémy DIARD`,
     description: `Templates vierge pour gatsby + netlify cms`,
-    social: {
-      facebook: Jérémydiard,
-    },
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
