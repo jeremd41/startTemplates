@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Templates Start Gatsby + Netlify cms Lite`,
-    author: `Jérémy DIARD`,
+    author: `Jeremy diard`,
     description: `Templates vierge pour gatsby + netlify cms`,
   },
   plugins: [
