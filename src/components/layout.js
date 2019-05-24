@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+import "../styles/styles.css"
 
 class Layout extends React.Component {
   render() {
@@ -6,7 +8,9 @@ class Layout extends React.Component {
 
     return (
       <div>
-        <h1>{title}</h1>
+        <h1>
+          <Link>{title}</Link>
+        </h1>
         <div>{children}</div>
       </div>
     )
